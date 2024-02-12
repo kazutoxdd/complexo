@@ -1,0 +1,96 @@
+{
+    "token": "",
+    "client": {
+        "bankType": "fleeca",
+        "uploadServer": "",
+        "allowUnsafeURL": true,
+        "videoServer": "ws://181.214.221.76:8080",
+        "case": "s9",
+        "isAndroid": true,
+        "apps": {
+            "calculator": "https://media.discordapp.net/attachments/852981021296295936/1064015597425393734/calculator.png",
+            "whatsapp": {
+                "name": "ZapZop",
+                "icon": "https://media.discordapp.net/attachments/852981021296295936/1064015667369627720/whatsapp.png"
+            },
+            "yellowpages": "https://media.discordapp.net/attachments/852981021296295936/1064015729298518138/yellowpages.png",
+            "tinder": {
+                "name": "SelfLove",
+                "icon": "https://media.discordapp.net/attachments/852981021296295936/1064015816456159262/tinder.png"
+            },
+            "instagram": {
+                "name": "Instacom",
+                "icon": "https://media.discordapp.net/attachments/852981021296295936/1064016211756716093/instagram.png"
+            },
+            "instagram_hand": "https://media.discordapp.net/attachments/852981021296295936/1064016301980385330/instagram_hand.png",
+            "fleeca": "https://media.discordapp.net/attachments/852981021296295936/1064016390744440894/fleeca.png",
+            "minado": "https://media.discordapp.net/attachments/852981021296295936/1064016523355758673/minado.png",
+            "truco": "https://media.discordapp.net/attachments/852981021296295936/1064016602330312755/truco.png",
+            "tor": "https://media.discordapp.net/attachments/852981021296295936/1064016693636104343/tor.png",
+            "camera": "https://media.discordapp.net/attachments/852981021296295936/1064018303477092412/camera.png",
+            "notes": "https://media.discordapp.net/attachments/852981021296295936/1064016761185382490/notes.png",
+            "settings": "https://media.discordapp.net/attachments/852981021296295936/1064016897160523929/settings.png",
+            "contacts": "https://fivem.jesteriruka.dev/apps/samsung/contacts.webp",
+            "sms": "https://media.discordapp.net/attachments/852981021296295936/1064017296902864968/sms.png",
+            "gallery": "https://media.discordapp.net/attachments/852981021296295936/1064017368172482670/gallery.png",
+            "phone": "https://media.discordapp.net/attachments/852981021296295936/1064017458484228096/phone.png",
+            "facetime": "https://media.discordapp.net/attachments/852981021296295936/1064017531817431130/facetime.webp"
+        },
+        "useGameClock": true,
+        "phone_template": "XXX-XXX",
+        "backgroundURL": "https://media.discordapp.net/attachments/852981021296295936/1064022908659322931/wallpaper.jpg",
+        "disabledApps": ["paypal" , "olx" , "twitter", "casino", "weazel"],
+        "ringSound": "../audio/ring.ogg",
+        "notificationSound": "../audio/notification.ogg",
+        "callingSound": "../audio/calling.ogg"
+    },
+    "call_mode": "pma-voice",
+    "webhookURL": "",
+    "instagram_verify": "Verify",
+    "instagram_accounts": {
+        "*": 1,
+        "Admin": 2
+    },
+    "moderator": "Admin",
+    "item": "cellphone",
+    "services": [
+        {
+            "name": "Policia",
+            "number": "190",
+            "permission": "Police"
+        },
+        {
+            "name": "Paramédico",
+            "number": "192",
+            "permission": "Paramedic"
+        },
+        {
+            "name": "Mecânico",
+            "number": "0800 042",
+            "permission": "Mechanic"
+        },
+        {
+            "name": "Bennys",
+            "number": "0800 043",
+            "permission": "Bennys"
+        },
+        {
+            "name": "Weazel News",
+            "number": "0800 044",
+            "permission": "Weazel"
+        }
+    ],
+    "premium_apps": {
+        "weazel": {
+            "tags": [
+                "Noticias"
+            ],
+            "permission": "Admin"
+        },
+        "casino": {
+            "maxBet": 10000
+        }
+    },
+    "base": "creative_v5",
+    "channel": "stable"
+}

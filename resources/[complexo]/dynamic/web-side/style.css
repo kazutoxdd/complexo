@@ -1,0 +1,50 @@
+::-webkit-scrollbar { width: 0; }
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+
+.container {
+	top: 20%;
+	right: 20%;
+	display: none;
+	position: absolute;
+	font-family: "Roboto",Arial,Helvetica,sans-serif;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	display: block;
+	color: #ffffff;
+	margin-top: 5px;
+	font-size: 19px;
+	min-height: 30px;
+	max-height: 58px;
+	min-width: 280px;
+	border-radius: 5px;
+	background: #0f0f0ff5;
+	transition: all 0.2s;
+	padding: 20px 20px 20px 12px;
+	border-left: 3px solid #f50a46;
+}
+
+.btn:hover {
+	color: #fff;
+	background: #79102a;
+	border-left: 3px solid #e9e9e9;
+	transition: all 0.2s;
+}
+
+.title {
+	float: left;
+	font-size: 15px;
+	margin-top: -9px;
+	text-align: left;
+}
+
+.description {
+	color: #d6d6d6;
+	font-size: 12px;
+	margin-top: 13px;
+	text-align: left;
+	letter-spacing: 0.8px;
+}

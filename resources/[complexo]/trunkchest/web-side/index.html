@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>#complexo</title>
+
+  <link rel="stylesheet" href="./inventory.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+  <div id="openInventory">
+    <div class="inventoryContainer">
+      <div class="inventoryTopInformation">
+        <div class="leftTopData">
+          <div class="weight">
+            <div id="weightTextLeft"></div>
+            <div id="weightBarLeft"></div>
+          </div>
+        </div>
+        <div class="middleTopData"></div>
+        <div class="rightTopData">
+          <div class="weight">
+            <div id="weightTextRight"></div>
+            <div id="weightBarRight"></div>
+          </div>
+        </div>
+      </div>
+      <div class="inventoryArea">
+        <div class="invLeft"></div>
+        <div class="invMiddle">
+          <input class="amount" placeholder="QTD" type="number" onKeyPress="if(this.value.length==9) return false;" />
+        </div>
+        <div class="invRight"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="inventory.js"></script>
+</body>
+
+</html>

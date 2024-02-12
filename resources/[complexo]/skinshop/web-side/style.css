@@ -1,0 +1,330 @@
+* {
+	font-family: "Roboto",Arial,Helvetica,sans-serif;
+}
+
+::-webkit-scrollbar { width: 0; }
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+
+.container {
+	height: 100vh;
+}
+
+::-webkit-inner-spin-button {
+	display: none;
+}
+
+.clothing-menu-container {
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	margin: 0;
+	width: 355px;
+	height: 600px;
+	display: flex;
+	border-radius: 5px;
+	flex-direction: column;
+	transform: translate(0%,-50%);
+	background: rgba(15,15,15,.75);
+}
+
+.clothing-menu-header {
+	top: -12px;
+	width: 92%;
+	height: 100px;
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: -20px;
+	align-items: center;
+	position: relative;
+}
+
+.clothing-menu-header-btn {
+    padding: 14px 0;
+	float: left;
+	position: relative;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 5px;
+	transition: all 0.1s linear;
+	color: #ccc;
+    background: rgba(10,10,10,.35);
+}
+
+.clothing-menu-header-btn:last-child {
+	margin: 0;
+}
+
+.clothing-menu-header-btn:hover {
+	color: #fff;
+	background: #3e0283;
+}
+
+.selected {
+	color: #fff;
+	background: #3e0283;
+}
+
+.clothing-menu-header-btn > p {
+	font-size: 12px;
+	letter-spacing: 0.1vh;
+	text-transform: uppercase;
+}
+
+.skinshop-menu-header-cameras {
+	position: absolute;
+	right: 90px;
+	top: 27.8%;
+	padding: 5px;
+	border-radius: 5px;
+	display: flex;align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	transform: translate(0,-50%);
+}
+
+.skinshop-menu-header-camera-btn {
+	width: 45px;
+	height: 45px;
+	display: flex;
+	color: #fff;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	margin-bottom: 7px;
+	border-radius: 5px;
+	justify-content: center;
+	transition: all 0.1s linear;
+	background-color: rgba(0,0,0,.25);
+}
+
+.skinshop-menu-header-camera-btn:last-child {
+	margin: 0;
+}
+
+.selected-cam {
+	color: #fff;
+	background: #3e0283;
+}
+
+.skinshop-menu-header-camera-btn:hover {
+	color: #fff;
+	background: #3e0283;
+}
+
+.skinshop-menu-header-camera-btn > i {
+	font-size: 1.4vh;
+}
+
+.clothing-menu-character-container, .clothing-menu-accessoires-container {
+	position: relative !important;
+	display: none;
+	margin: 0 auto;
+	width: 92%;
+	height: 72%;
+	overflow-y: scroll !important;
+}
+
+.clothing-menu-option {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.clothing-content {
+	display: flex;
+	align-items: center;
+}
+
+.clothing-menu-option-header {
+	width: 100%;
+	color: #ccc;
+	background: rgba(10,10,10,.35);
+	border-radius: 5px;
+	padding: 13px 10px 13px;
+}
+
+.clothing-menu-option-header > p {
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 0.1vh;
+}
+
+.clothing-menu-option-item {
+	display: flex;
+	padding: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+	text-align: center;
+	flex-direction: column;
+	background: rgba(10,10,10,.35);
+}
+
+.clothing-menu-option-item:first-child {
+	margin-right: 10px;
+}
+
+.clothing-arrows {
+	display: flex;
+	align-items: center;
+}
+
+.clothing-menu-option-item-left {
+	width: 40px;
+	height: 30px;
+	color: #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: all 0.1s linear;
+	background: rgba(10,10,10,.20);
+	border-radius: 5px;
+}
+
+.clothing-menu-option-item-right {
+	width: 40px;
+	height: 30px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: all 0.1s linear;
+	background: rgba(10,10,10,.20);
+	border-radius: 4px;
+}
+
+.clothing-menu-option-item-right:hover,
+.clothing-menu-option-item-left:hover {
+	color: #fff;
+	background: #3e0283;
+}
+
+.item-number {
+	width: 70px;
+	margin: 0 5px;
+	height: 30px;
+	border: 0;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	outline: none;
+	background: rgba(0, 0, 0, 0.15);
+	transition: all 0.1s linear;
+	border-radius: 4px;
+}
+
+.clothing-menu-option-item-header {
+	bottom: 5vh;
+	width: 100%;
+	margin: 5px 0;
+	font-size: 8px;
+	margin-bottom: 7px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #bebebe;
+}
+
+.clothing-menu-option-item-header > p {
+	padding: 0.2vh;
+}
+
+.clothing-menu-option-buttons {
+	position: absolute;
+	bottom: 12px;
+	width: 100%;
+	height: 41px;
+}
+
+.clothing-menu-option-button {
+	float: left;
+	width: 205px;
+	height: 100%;
+	margin-left: 20px;
+	margin-right: 7px;
+	border-radius: 4px;
+	position: relative;
+	background: #2e6e4c;
+	transition: all 0.1s linear;
+}
+
+.clothing-menu-option-button:hover {
+	background: #39875e;
+}
+
+.clothing-menu-option-button > p {
+	margin-top: 14px;
+	font-size: 12px;
+	letter-spacing: 0.1vh;
+	text-transform: uppercase;
+	color: #9bcbb2;
+	text-align: center;
+}
+
+.clothing-menu-option-button2 {
+	float: left;
+	width: 205px;
+	height: 100%;
+	border-radius: 4px;
+	position: relative;
+	background: #7c344d;
+	transition: all 0.1s linear;
+}
+
+.clothing-menu-option-button2:hover {
+	background: #913e5b;
+}
+
+.clothing-menu-option-button2 > p {
+	margin-top: 14px;
+	font-size: 12px;
+	letter-spacing: 0.1vh;
+	text-transform: uppercase;
+	color: #e0a2b7;
+	text-align: center;
+}
+
+.btns {
+	position: absolute;
+	margin-left: 15px;
+	bottom: 20px;
+	width: 325px;
+	display: flex;
+	margin-top: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.btns button {
+	font-size: 13px;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 0;
+    color: #ccc;
+    padding: 14px 0;
+    text-align: center;
+    opacity: .5;
+    transition: all .2s;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: rgba(10,10,10,.75);
+}
+
+.btns button:last-child {
+	margin-left: 10px;
+}
+
+.btns button:hover {
+    opacity: 1;
+    color: #fff;
+    background-color: #3e0283;
+}
