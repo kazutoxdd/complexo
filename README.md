@@ -1,6 +1,6 @@
-# Storm Network - Base Complexo - Ato 1
+# Rise Studios - Base Complexo - Ato 1
 
-👋 Bem-vindo(a) à Base Complexo - Ato 1 da Storm Network!
+👋 Bem-vindo(a) à Base Complexo - Ato 1 da Rise Studios!
 
 ## Descrição
 
@@ -24,6 +24,6 @@ Para instalar nossa Base Complexo - Ato 1, siga as instruções no arquivo de in
 
 ## Suporte
 
-Se você precisar de suporte ou tiver alguma dúvida sobre a Base Complexo - Ato 1, entre em contato conosco através de nosso Discord (https://discord.gg/stormcompany). Estamos aqui para ajudar!
+Se você precisar de suporte ou tiver alguma dúvida sobre a Base Complexo - Ato 1, entre em contato conosco através de nosso Discord (https://discord.gg/risestudios). Estamos aqui para ajudar!
 
 Agradecemos por escolher a Base Complexo - Ato 1 da Storm Network para o seu servidor. Esperamos que você e seus jogadores aproveitem ao máximo esta base criativa. Divirta-se!
